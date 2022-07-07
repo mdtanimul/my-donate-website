@@ -160,11 +160,52 @@ body {
     padding: 40px 20px;
 }
 
+.update {
+    font-family: 'Inter', sans-serif;
+    margin-top: 90px;
+}
+
+.update-content {
+    text-align: center;
+}
+
+.update-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.update-content p {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.747);
+}
+
+.sub-form {
+    background-color: #e4cd8f;
+    padding: 100px;
+    width: 700px;
+    margin-left: 220px;
+    text-align: center;
+}
+
+.email-form {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(247, 242, 242, 0.74);
+}
+
+.email-submit {
+    margin-left: 20px;
+
+}
+
 .footer {
     background-color: rgb(21, 26, 26);
     color: white;
     text-align: center;
-    margin: 50px 0 0 0;
+    margin: 100px 0 0 0;
     padding: 5px 0;
 
 }
