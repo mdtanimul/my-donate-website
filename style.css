@@ -106,3 +106,47 @@ body {
     font-weight: 700;
     color: black;
 }
+
+.plan-content {
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.plan-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+.donate-plan {
+    margin: 70px 20px;
+}
+
+.donate-plan-option {
+    display: flex;
+}
+
+.donate-plan-option p {
+    text-align: justify;
+}
+
+.family-plan {
+    background-color: #edf5f6;
+    height: 250px;
+    margin-right: 20px;
+    padding: 40px 20px;
+}
+
+.shelter-plan {
+    background-color: #ffeeee;
+    height: 250px;
+    margin-right: 20px;
+    padding: 40px 20px;
+}
+
+.education-plan {
+    background-color: #fff4d6;
+    height: 250px;
+    padding: 40px 20px;
+}
