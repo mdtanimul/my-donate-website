@@ -1,20 +1,49 @@
 body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
 .header {
-    background: url(images/donation5.jpg);
-    background-size: cover;
+    background-image: url(images/donation5.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    color: white;
+    text-align: center;
 
 
 }
 
-.header-div {
-    position: absolute;
-    width: 826px;
-    height: 320px;
-    padding-left: 307px;
-    padding-top: 174px;
-    color: aliceblue;
+.header-text {
+    padding-top: 150px;
+}
+
+.header-text h1 {
+    padding: 0 307px;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 3px 5px black;
+    border: 2px;
+}
+
+.header-text p {
+    padding: 20px 307px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgba(128, 128, 128, 0.39);
+}
+
+.donate-button {
+    margin-top: 100px;
+}
+
+.donate-button a {
+    background-image: linear-gradient(blue, skyblue);
+    padding: 20px 40px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
 }
