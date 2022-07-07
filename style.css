@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
-    font-family: 'Inter', sans-serif;
+
     margin: 0;
 }
 
 .header {
+    font-family: 'Inter', sans-serif;
     background-image: url(images/donation5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,9 +51,14 @@ body {
     font-size: 20px;
 }
 
+.donation {
+    font-family: 'Inter', sans-serif;
+    margin-top: 90px;
+}
+
 .select-amount {
     display: flex;
-    margin: 0 200px;
+    margin: 0 180px;
 }
 
 .donation-content {
@@ -120,6 +128,7 @@ body {
 }
 
 .donate-plan {
+    font-family: 'Inter', sans-serif;
     margin: 70px 20px;
 }
 
@@ -149,4 +158,23 @@ body {
     background-color: #fff4d6;
     height: 250px;
     padding: 40px 20px;
+}
+
+.footer {
+    background-color: rgb(21, 26, 26);
+    color: white;
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 5px 0;
+
+}
+
+.footer h1 {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+.footer p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
 }
