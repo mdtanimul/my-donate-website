@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-.header {
+#header {
     font-family: 'Inter', sans-serif;
     background-image: url(images/donation5.jpg);
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@ body {
     font-size: 20px;
 }
 
-.donation {
+#donation {
     font-family: 'Inter', sans-serif;
     margin-top: 90px;
 }
@@ -115,6 +115,12 @@ body {
     color: black;
 }
 
+
+#donate-plan {
+    font-family: 'Inter', sans-serif;
+    margin: 70px 20px;
+}
+
 .plan-content {
     text-align: center;
     padding-bottom: 50px;
@@ -125,11 +131,6 @@ body {
     font-size: 50px;
     font-weight: 800;
 
-}
-
-.donate-plan {
-    font-family: 'Inter', sans-serif;
-    margin: 70px 20px;
 }
 
 .donate-plan-option {
@@ -160,9 +161,32 @@ body {
     padding: 40px 20px;
 }
 
-.update {
+#activity {
+    margin-top: 100px;
+    height: 400px;
+}
+
+#activity h1 {
     font-family: 'Inter', sans-serif;
-    margin-top: 90px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.activity-images {
+    display: flex;
+    margin-left: 40px;
+}
+
+.activity-images img {
+    width: 22%;
+    padding: 0 13px;
+}
+
+#update {
+    font-family: 'Inter', sans-serif;
+
 }
 
 .update-content {
@@ -182,7 +206,7 @@ body {
 
 .sub-form {
     background-color: #e4cd8f;
-    padding: 100px;
+    padding: 50px 100px;
     width: 700px;
     margin-left: 220px;
     text-align: center;
@@ -201,7 +225,7 @@ body {
 
 }
 
-.footer {
+#footer {
     background-color: rgb(21, 26, 26);
     color: white;
     text-align: center;
@@ -210,12 +234,12 @@ body {
 
 }
 
-.footer h1 {
+#footer h1 {
     font-size: 50px;
     font-family: 'Lobster', cursive;
 }
 
-.footer p {
+#footer p {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
 }
