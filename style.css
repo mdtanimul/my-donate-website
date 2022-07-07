@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
 }
 
@@ -41,9 +41,68 @@ body {
 .donate-button a {
     background-image: linear-gradient(blue, skyblue);
     padding: 20px 40px;
-    border-radius: 40px;
+    border-radius: 25px;
     text-decoration: none;
     font-weight: 700;
     color: black;
     font-size: 20px;
+}
+
+.select-amount {
+    display: flex;
+    margin-left: 200px;
+}
+
+.donation-content {
+    text-align: center;
+}
+
+.donation-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.donation-content p {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(128, 128, 128, 0.747);
+}
+
+.select-amount div {
+    padding: 25px 40px;
+    background-color: rgba(128, 128, 128, 0.158);
+    margin: 0 10px 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.selected-amount {
+    border: 2px solid rgb(2, 60, 252);
+    border-radius: 5px;
+    color: rgb(2, 60, 252);
+
+}
+
+.other-amount {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid grey;
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.452);
+    margin-top: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+.submit-button {
+    padding: 20px 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(blue, skyblue);
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
 }
