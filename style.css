@@ -50,7 +50,7 @@ body {
 
 .select-amount {
     display: flex;
-    margin-left: 200px;
+    margin: 0 200px;
 }
 
 .donation-content {
@@ -71,7 +71,7 @@ body {
 .select-amount div {
     padding: 25px 40px;
     background-color: rgba(128, 128, 128, 0.158);
-    margin: 0 10px 10px;
+    margin: 10px 10px;
     font-size: 30px;
     font-weight: 800;
 }
